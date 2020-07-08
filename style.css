@@ -1,0 +1,192 @@
+:root {
+    --background-color: #ebebe3;
+    --primary: 	#2b2b2c;
+}
+body{
+    background-color: var(--background-color);
+    color: var(--primary);
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width:800px;
+    height:60px;
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+    
+    padding: 10px 30px;
+    margin:25px 0px 50px 0px;
+
+    font-family: 'Unica One', cursive;
+    text-shadow: 2px 2px #b9e9f7;
+}
+header h1 {
+    font-size: 40px;
+    display: flex;
+}
+header img{
+    width:120px;
+    height: auto;
+}
+header .tabs a{
+    text-decoration: none;
+    font-size: 26px;
+    color: var(--primary);
+    text-shadow: 1px 1px #b9e9f7;
+    margin-left: 10px;
+}
+header .tabs a:hover{
+    border-bottom: 2px solid var(--primary);
+    transition: 200ms;
+}
+.active{
+    border-bottom: 2px solid var(--primary);
+}
+.contentTab{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+    width:800px;
+    height:auto;
+    border: 2px solid var(--primary);
+    border-radius: 4px;
+
+    padding: 30px 30px;
+}
+
+#content0 .welcome img{
+    width: 500px;
+    border-radius: 5px;
+}
+#content0 .welcome{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    padding:20px 20px 20px 30px;
+}
+.welcome h1{
+    font-family: 'Unica One', cursive;
+    word-spacing: 200px;
+    font-size: 40px;
+    text-shadow: 2px 2px #b9e9f7;
+    max-width:200px;
+    line-height: 1.7em;
+}
+.intro{
+    text-align: center;
+    margin:30px 50px;
+}
+.intro h1{
+    font-family: 'Unica One', cursive;
+    font-size: 24px;
+}
+#content0 .intro p {
+    font-family: 'Comfortaa', cursive;
+    line-height: 1.3em;
+    color: var(--primary);
+    padding-bottom: 20px;;
+}
+#content0 .intro a{
+    background-color:#b9e9f7;
+}
+.menuItem img{
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.menuItem .hide{
+    display: none;
+}
+.menuItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+    width:70%;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.itemHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: "Unica One", cursive;
+    font-size: 26px;
+
+    border-radius: 10px;
+
+    height: 1.5em;
+    width: 100%;
+}
+.itemHeader span{
+    font-family: "Material Icons";
+    font-size: 32px;
+}
+.itemHeader h2{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.itemHeader .priceList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.itemHeader .priceList h3{
+    font-size: 24px;
+}
+.itemHeader .priceList h4{
+    background-color: var(--primary);
+    color:var(--background-color);
+    border-radius: 50%;
+    font-size: 32px;
+    padding:5px;
+    margin-left: 5px;;
+}
+#newYork{background-color: #f6faad;}
+#chicago{background-color: #fad7c3;}
+#neapolitan{background-color: #b9e9f7;}
+.menuItem .itemDescription{
+    font-family: 'Comfortaa', cursive;
+    width:480px;
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+}
+.textContent{
+    font-family: "Unica One", cursive;
+}
+.textContent h1{
+    font-size:26px;
+    text-align: center;
+    line-height: 1.3em;
+    padding-top: 20px;
+}
+#contactInfo h1{
+    font-size: 30px;
+}
+#contactInfo a{
+    text-decoration: none;
+    text-shadow: 2px 2px #fad7c3;
+    color:var(--primary);
+}
+.textContent strong{
+    font-weight: 700;
+    background-color: #b9e9f7;
+}
